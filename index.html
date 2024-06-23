@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KSquare-RH</title>
+    <title>K²-RH</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1 class="heading">K<sup>2</sup>-RH</h1>
-        </div>
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+    <header>
+        <h1>K²-RH</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <div class="images">
-        <div class="image-container">
-            <img class="k1" src="/assets/KrishD.jpg" alt="KrishD">
-            <div class="image-caption">Krishna Dubey</div>
-        </div>
-        <div class="image-container">
-            <img class="k2" src="/assets/KrishC.jpg" alt="KrishC">
-            <div class="image-caption">Krishna Chauhan</div>
-        </div>
-        <div class="image-container">
-            <img class="r1" src="/assets/RishG.jpg" alt="RishG">
-            <div class="image-caption">Rishabh Gorule</div>
-        </div>
-        <div class="image-container">
-            <img class="h1" src="/assets/Hardik1.jpg" alt="Hardik1">
-            <div class="image-caption">Hardik Mishra</div>
-        </div>
-    </div>
-</body>
+    <main>
+        <section id="home">
+            <div class="image-row">
+            <div class="image-container">
+                <img src="./assets/KrishD.jpg" alt="Krishna Dubey">
+                <p>Krishna Dubey</p>
+            </div>
+            <div class="image-container">
+                <img src="./assets/KrishC.jpg" alt="Krishna Chauhan">
+                <p>Krishna Chauhan</p>
+            </div>
+            <div class="image-container">
+                <img src="./assets/RishG.jpg" alt="Rishabh Gorule">
+                <p>Rishabh Gorule</p>
+            </div>
+            <div class="image-container">
+                <img src="./assets/Hardik1.jpg" alt="Hardik Mishra">
+                <p>Hardik Mishra</p>
+            </div>
+            </div>
+        </section>
 
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our corner of the internet, where friendship and creativity thrive.</p>
+            <p>We are a group of four friends brought together by our shared passions and diverse talents.</p>
+        </section>
+
+        <section id="contact">
+            <p>Made with 🖤 in India.</p>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
 </html>
